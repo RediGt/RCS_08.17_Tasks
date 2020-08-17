@@ -16,7 +16,10 @@ namespace RCS_08._17
         public Form1()
         {
             InitializeComponent();
+            //tBoxName.Focus();
         }
+
+
 
         private void Button1_Click(object sender, EventArgs e)
         {
