@@ -25,6 +25,7 @@ namespace RCS_08._17
                 lblCongrats.Text = "Hello, " + tBoxName.Text;
                 clickCounter++;
                 lblClicks.Text = "Number of clicks : " + clickCounter.ToString();
+                tBoxName.Text = "";
             }
         }
     }
