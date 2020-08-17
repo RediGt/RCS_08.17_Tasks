@@ -26,6 +26,7 @@ namespace RCS_08._17
                 clickCounter++;
                 lblClicks.Text = "Number of clicks : " + clickCounter.ToString();
                 tBoxName.Text = "";
+                tBoxName.Focus();
             }
         }
     }
